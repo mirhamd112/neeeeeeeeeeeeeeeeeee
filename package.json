@@ -33,7 +33,7 @@
     "postversion": "echo $(node -p \"require('./package.json').version\") > public/version.txt && git commit --amend --no-verify --no-edit public/version.txt"
   },
   "engines": {
-    "node": "^22.6 || ^24",
+    "node": ">=20",
     "npm": "^10.8 || ^11"
   },
   "lint-staged": {
